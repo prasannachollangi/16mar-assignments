@@ -1,0 +1,19 @@
+s=input()
+l=list(s)
+x=[]
+o=[]
+e=[]
+for i in l:
+    x.append(int(i))
+for i in x:
+    if i%2==0:
+        e.append(i)
+    else:
+       o.append(i) 
+o.insert(len(o)+1,' ')        
+res=o+e       
+for i in res:
+    print(i,end='')
+OUTPUT:-
+1243536
+1353 246
